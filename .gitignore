@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Journaux et temporaires
+*.log
+*.tmp
+
+# Résultats et cache générés par l'outil
+resultats/
+cache/
