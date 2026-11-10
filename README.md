@@ -8,7 +8,7 @@ Version 0.1.0 (10/11/2026).
 
 ### En ligne de commande (méthode recommandée, marche depuis n'importe quel projet)
 ```powershell
-& E:\BOT\scraping\scraper.bat "https://site.fr/article"
+& E:\BOT\Outils\scraping\scraper.bat "https://site.fr/article"
 ```
 Options :
 | Option | Effet |
@@ -23,7 +23,7 @@ Code de retour : `0` si toutes les pages ont réussi, `1` si au moins une a éch
 
 ### Depuis Python (seulement avec le Python du projet scraping)
 ```python
-import sys; sys.path.insert(0, r"E:\BOT\scraping\src")
+import sys; sys.path.insert(0, r"E:\BOT\Outils\scraping\src")
 from scraper import recuperer
 r = recuperer("https://site.fr/article")
 ```
@@ -64,7 +64,7 @@ Attention : il faut que les bibliothèques soient installées dans le Python uti
 
 ## Installation (déjà faite sur ce PC)
 ```powershell
-cd E:\BOT\scraping
+cd E:\BOT\Outils\scraping
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```

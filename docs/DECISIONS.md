@@ -13,3 +13,4 @@ On n'efface jamais, on ajoute.
 | 10/11/2026 | Wikis MediaWiki lus via l'API officielle (`api.php`) | Fandom bloque la page normale par Cloudflare ; l'API est prévue pour les programmes, c'est la voie légitime. Elle ne passe pas par le contrôle robots.txt (règle des robots d'indexation), mais respecte les usages de l'API (identification, pause, maxlag) |
 | 10/11/2026 | Pas de contournement des protections anti-robot | Respect des sites, risque de blocage ; erreur claire `protection_anti_robot` à la place |
 | 10/11/2026 | Connexion aux sites reportée à une étape suivante | Faire d'abord marcher les pages publiques |
+| 10/11/2026 | Projet déplacé dans `E:\BOT\Outils\scraping` | Demande de Quentin : regrouper les outils mis à disposition des agents dans `E:\BOT\Outils` |
