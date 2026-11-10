@@ -19,6 +19,5 @@ Au choix de Quentin :
 - Projet déplacé dans `E:\BOT\Outils\scraping` (10/11/2026), listé dans « Outils mis à disposition » de A_LIRE_AVANT_TOUT_PROJET.md.
 
 ## Pièges
-- Si l'ancien dossier `E:\BOT\scraping` existe encore, c'est une copie périmée : ne pas l'utiliser.
 - Lancer Python via `.venv\Scripts\python.exe`, pas le Python global.
 - trafilatura jette les titres des wikis : c'est pour ça que les wikis passent par markdownify.
