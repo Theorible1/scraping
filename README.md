@@ -2,7 +2,7 @@
 
 Outil qui va lire une page web et rend son **contenu principal en texte propre** (Markdown), sans menus, pubs ni pieds de page. Fait pour être appelé par les autres agents et projets de `E:\BOT`.
 
-Version 0.1.0 (10/11/2026).
+Version 0.1.0 (10/11/2026). Code source : https://github.com/Theorible1/scraping
 
 ## Pour un agent : comment s'en servir
 

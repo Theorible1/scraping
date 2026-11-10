@@ -34,7 +34,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 
 ## Technique
 - Windows 10, PowerShell 5.1 (pas de `&&`), VS Code + Claude Code.
-- Python 3.14 installé. Git 2.56 (si `git` n'est pas reconnu : `& "C:\Program Files\Git\cmd\git.exe"`). Aucun dépôt en ligne sans accord.
+- Python 3.14 installé. Git 2.56 (si `git` n'est pas reconnu : `& "C:\Program Files\Git\cmd\git.exe"`). Dépôt **public** en ligne : https://github.com/Theorible1/scraping (publié le 10/11/2026 avec l'accord de Quentin, tout le projet). Envoi des mises à jour (`git push`) seulement quand Quentin le demande. Les commits utilisent l'e-mail anonyme GitHub (`97162976+Theorible1@users.noreply.github.com`, réglé dans la config git locale) : ne jamais remettre un vrai e-mail. Tout ce qui est dans git est public : jamais de secret ni de donnée perso.
 - Technologie : Python (`.venv` du projet), httpx, trafilatura (articles), markdownify (wikis). Toujours utiliser `.venv\Scripts\python.exe`.
 - Lancement : `.\scraper.bat <adresse> [--format markdown|json|texte] [--sortie fichier]`.
 - Tests : `.\.venv\Scripts\python.exe -m pytest -q tests` (hors ligne).
