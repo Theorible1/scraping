@@ -16,3 +16,4 @@ On n'efface jamais, on ajoute.
 | 10/11/2026 | Code publié sur GitHub, dépôt public `Theorible1/scraping`, tout le projet | Choix de Quentin : partager le code. GitHub Pages écarté (ne peut pas faire tourner du Python) |
 | 10/11/2026 | E-mail perso remplacé par l'e-mail anonyme GitHub dans l'historique avant publication | Éviter d'exposer l'adresse gmail publiquement |
 | 10/11/2026 | Projet déplacé dans `E:\BOT\Outils\scraping` | Demande de Quentin : regrouper les outils mis à disposition des agents dans `E:\BOT\Outils` |
+| 10/11/2026 | Outil partagé entre PC perso et PC du bureau via GitHub : `synchroniser.bat` en début de session, `git push` après chaque commit | Demande de Quentin : deux PC sans dossier commun |

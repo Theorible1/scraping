@@ -5,6 +5,7 @@ Outil de scraping (récupération automatique d'informations sur des sites web) 
 L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en **français**, consignes courtes, **une action à la fois**, noms exacts des menus et boutons. Ton de pote (tutoiement, un peu d'humour ok), rigueur intacte. Il veut de l'autonomie : ne pas poser de question à chaque étape, mais demander avant toute action irréversible. Quand il doit remplacer un fichier, lui donner le fichier **complet**.
 
 ## Au début de chaque session
+0. **Se mettre à jour** : `& E:\BOT\synchroniser.bat` (l'outil est partagé entre le PC perso et le PC du bureau via GitHub). Traiter toute ligne `[!!]` avant de travailler.
 1. Lire `REPRISE_SESSION.md`.
 2. Seulement si besoin : `STATUT.md`, `docs/DECISIONS.md`, `docs/ARBORESCENCE.md`, `docs/CAHIER_DES_CHARGES.md`.
 3. Si un document contredit l'état réel des fichiers, l'état réel prime : le signaler.
@@ -15,6 +16,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 3. Nouvelle décision : une ligne datée dans `docs/DECISIONS.md`.
 4. Nouveau dossier ou fichier important : mettre à jour `docs/ARBORESCENCE.md`.
 5. Étape validée : sauvegarde git (`git add -A` puis `git commit -m "<ce qui a été fait, en français>"`). Étape validée = un commit avec un message en français.
+6. **Publier en ligne** : `git push`, tout de suite. Une modification commitée mais pas poussée n'est pas terminée (l'autre PC ne la verra pas).
 
 ## À la fin de chaque session (« on s'arrête », « fin de session »)
 - Réécrire `REPRISE_SESSION.md` (une page max, date du jour).
@@ -34,7 +36,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 
 ## Technique
 - Windows 10, PowerShell 5.1 (pas de `&&`), VS Code + Claude Code.
-- Python 3.14 installé. Git 2.56 (si `git` n'est pas reconnu : `& "C:\Program Files\Git\cmd\git.exe"`). Dépôt **public** en ligne : https://github.com/Theorible1/scraping (publié le 10/11/2026 avec l'accord de Quentin, tout le projet). Envoi des mises à jour (`git push`) seulement quand Quentin le demande. Les commits utilisent l'e-mail anonyme GitHub (`97162976+Theorible1@users.noreply.github.com`, réglé dans la config git locale) : ne jamais remettre un vrai e-mail. Tout ce qui est dans git est public : jamais de secret ni de donnée perso.
+- Python 3.14 installé. Git 2.56 (si `git` n'est pas reconnu : `& "C:\Program Files\Git\cmd\git.exe"`). Dépôt **public** en ligne : https://github.com/Theorible1/scraping (publié le 10/11/2026 avec l'accord de Quentin, tout le projet). Depuis le 10/11/2026 (demande de Quentin, deux PC) : chaque commit est poussé aussitôt (`git push`), sans attendre. Les commits utilisent l'e-mail anonyme GitHub (`97162976+Theorible1@users.noreply.github.com`, réglé dans la config git locale) : ne jamais remettre un vrai e-mail. Tout ce qui est dans git est public : jamais de secret ni de donnée perso.
 - Technologie : Python (`.venv` du projet), httpx, trafilatura (articles), markdownify (wikis). Toujours utiliser `.venv\Scripts\python.exe`.
 - Lancement : `.\scraper.bat <adresse> [--format markdown|json|texte] [--sortie fichier]`.
 - Tests : `.\.venv\Scripts\python.exe -m pytest -q tests` (hors ligne).
