@@ -35,4 +35,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 ## Technique
 - Windows 10, PowerShell 5.1 (pas de `&&`), VS Code + Claude Code.
 - Python 3.14 installé. Git 2.56 (si `git` n'est pas reconnu : `& "C:\Program Files\Git\cmd\git.exe"`). Aucun dépôt en ligne sans accord.
-- Technologie de l'outil : à définir. Lancement : à définir. Tests : à définir.
+- Technologie : Python (`.venv` du projet), httpx, trafilatura (articles), markdownify (wikis). Toujours utiliser `.venv\Scripts\python.exe`.
+- Lancement : `.\scraper.bat <adresse> [--format markdown|json|texte] [--sortie fichier]`.
+- Tests : `.\.venv\Scripts\python.exe -m pytest -q tests` (hors ligne).
+- L'interface (options, champs JSON, codes d'erreur) est utilisée par d'autres agents : ne pas la casser ; toute évolution doit rester compatible et être reportée dans `README.md`.

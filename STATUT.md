@@ -1,19 +1,31 @@
 # Statut : scraping
 
-## Fait
-- Dossiers créés : `docs`, `src`, `tests`, `outils`, `import`, `_archives`.
-- Fichiers de contexte : `CLAUDE.md`, `REPRISE_SESSION.md`, `STATUT.md`, `README.md`, `.gitignore`, `docs/ARBORESCENCE.md`, `docs/DECISIONS.md`, `docs/IDEES.md`, `docs/CAHIER_DES_CHARGES.md`.
+## Fait (10/11/2026)
+- Structure du projet et fichiers de contexte.
+- Version 0.1.0 de l'outil : `scraper.bat` + `src/scraper.py`.
+  - Articles et blogs : texte principal en Markdown, titre, date, auteur, site.
+  - Wikis MediaWiki via l'API officielle, titres de sections gardés, sommaire / bandeaux / références retirés.
+  - Respect du robots.txt, pause de 2 s entre deux pages d'un même site, identification honnête.
+  - Erreurs claires avec codes stables ; fichiers non HTML refusés sans téléchargement.
+- Mode d'emploi pour les agents dans `README.md`.
 
 ## Vérifié
-- Liste des dossiers relue après création (10/11/2026).
+- 11 tests hors ligne : tous passent.
+- Essais réels (10/11/2026) :
+  - `finalfantasy.fandom.com/wiki/Job_system` : ok, 8 046 mots, sections présentes, méthode api_wiki.
+  - `fr.wikipedia.org/wiki/Web_scraping` : ok, bandeau d'avertissement retiré.
+  - Article `blog.python.org` : ok, date juste (26/10/2026).
+  - Fichier `.exe` : refusé en ~1 s sans téléchargement. 404, domaine inexistant, page Cloudflare : bons codes d'erreur.
+
+## Pas testé
+- Utilisation réelle par un autre agent d'un autre projet.
+- Sites d'actu français à gros trafic (pubs, cookies, paywall).
 
 ## Reste à faire
-- Remplir le cahier des charges avec Quentin.
-- Choisir la technologie.
-- Premier prototype + tests.
+- Faire essayer l'outil par un agent d'un autre projet.
+- Sites avec connexion.
+- Pages construites en JavaScript.
 
 ## Questions ouvertes
-- Quels sites et quelles données ?
-- Quels agents/projets vont appeler l'outil, et comment (commande, fichier, autre) ?
-- Format de sortie (JSON, CSV, texte) ?
-- Ponctuel à la demande ou automatique à intervalle régulier ?
+- Quels sites avec connexion, et quel compte ?
+- Quels sites d'actu / blogs Quentin lit vraiment (pour tester dessus) ?
