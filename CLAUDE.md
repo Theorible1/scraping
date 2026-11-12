@@ -24,6 +24,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 ## Hygiène de session
 - Appliquer la section « hygiène de session » de `E:\BOT\A_LIRE_AVANT_TOUT_PROJET.md` : surveiller la taille du contexte, rappeler à Quentin `/compact` (avant une pause) et `/clear` (changement de sujet).
 - Si le contexte devient trop lourd : tout mettre à jour (REPRISE_SESSION, STATUT, DECISIONS, ARBORESCENCE, mémoire), puis proposer un prompt de redémarrage à coller dans une nouvelle conversation.
+- Quentin apprend à le faire seul : expliquer en une phrase pourquoi c'est le moment, et lui signaler après coup s'il aurait dû faire `/clear` ou `/compact` plus tôt (sans reproche). Voir « Apprendre à Quentin quand faire `/clear` ou `/compact` » dans le A_LIRE.
 
 ## Règles absolues
 - Rien n'est « fait » sans valeur attendue ET valeur lue. Dire ce qui est fait / testé / pas testé.
