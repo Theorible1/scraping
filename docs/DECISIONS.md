@@ -17,3 +17,4 @@ On n'efface jamais, on ajoute.
 | 10/11/2026 | E-mail perso remplacé par l'e-mail anonyme GitHub dans l'historique avant publication | Éviter d'exposer l'adresse gmail publiquement |
 | 10/11/2026 | Projet déplacé dans `E:\BOT\Outils\scraping` | Demande de Quentin : regrouper les outils mis à disposition des agents dans `E:\BOT\Outils` |
 | 10/11/2026 | Outil partagé entre PC perso et PC du bureau via GitHub : `synchroniser.bat` en début de session, `git push` après chaque commit | Demande de Quentin : deux PC sans dossier commun |
+| 12/11/2026 | `SOUS_AGENT.md` : consignes réservées aux sous-agents ; conversation principale sur Opus 5.5, jamais de sous-agent Fable, deux sous-agents au maximum | Demande de Quentin : maîtriser le coût et éviter qu'un sous-agent suive les consignes de commit et de push du `CLAUDE.md` |

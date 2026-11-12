@@ -5,6 +5,7 @@ scraping\
 ├── scraper.bat          Point d'entrée : c'est ce que les agents appellent
 ├── requirements.txt     Bibliothèques Python à installer
 ├── CLAUDE.md            Consignes permanentes pour Claude
+├── SOUS_AGENT.md        Consignes pour les sous-agents (interdits, commandes, format du rapport)
 ├── REPRISE_SESSION.md   Où on en est (une page)
 ├── STATUT.md            Fait / vérifié / reste à faire
 ├── README.md            Présentation + mode d'emploi pour les autres agents
