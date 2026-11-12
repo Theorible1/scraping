@@ -53,5 +53,5 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 - `TODO.md` est la liste des tâches du projet, toujours à jour : la lire en début de session avec `REPRISE_SESSION.md`, la mettre à jour à la fin de chaque étape, en fin de session et avant `/clear`. Une tâche n'est cochée que vérifiée. Règles et modèle : section « liste des tâches `TODO.md` » de `E:\BOT\A_LIRE_AVANT_TOUT_PROJET.md`.
 
 ## Échanges entre les deux PC
-- En début de session, après `& E:\BOT\synchroniser.bat` : lire `E:\BOT\ECHANGES_ENTRE_PC.md` et faire uniquement ce que demandent les entrées « à traiter » sur ce PC, puis les cocher (commit + push de BOT_commun).
+- En début de session, après `& E:\BOT\synchroniser.bat` : lire `E:\BOT\ECHANGES_ENTRE_PC.md` et faire uniquement ce que demandent les entrées « à traiter » sur ce PC, puis effacer chaque entrée traitée (commit + push de BOT_commun) : une entrée disparue signifie « c'est fait ».
 - Après toute mise en ligne (push vers un dépôt partagé, publication avec l'outil mise en ligne) : ajouter une entrée en haut de ce fichier, puis commit + push de BOT_commun. Règles : partie « Journal des échanges » de `E:\BOT\A_LIRE_AVANT_TOUT_PROJET.md`.
