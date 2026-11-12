@@ -26,6 +26,10 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 - Si le contexte devient trop lourd : tout mettre à jour (REPRISE_SESSION, STATUT, DECISIONS, ARBORESCENCE, mémoire), puis proposer un prompt de redémarrage à coller dans une nouvelle conversation.
 - Quentin apprend à le faire seul : expliquer en une phrase pourquoi c'est le moment, et lui signaler après coup s'il aurait dû faire `/clear` ou `/compact` plus tôt (sans reproche). Voir « Apprendre à Quentin quand faire `/clear` ou `/compact` » dans le A_LIRE.
 
+## Modèle et sous-agents
+- Conversation principale sur Opus 5.5. Appliquer la section « choix du modèle et délégation aux sous-agents » de `E:\BOT\A_LIRE_AVANT_TOUT_PROJET.md` : fragmenter la demande, faire soi-même ce qui est petit ou lié à la discussion, confier les étapes longues et séparables à un sous-agent d'un modèle en dessous (tableau de référence du A_LIRE), vérifier son retour, dire à Quentin ce qui a été délégué et à quel modèle.
+- Les interdits du projet valent pour les sous-agents : les recopier dans chaque consigne. Aucune action irréversible ou vers l'extérieur (commit, push, mise en ligne, suppression) n'est déléguée.
+
 ## Règles absolues
 - Rien n'est « fait » sans valeur attendue ET valeur lue. Dire ce qui est fait / testé / pas testé.
 - Ne rien supprimer sans accord explicite : ce qui ne sert plus va dans `_archives/`.
