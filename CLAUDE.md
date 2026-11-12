@@ -6,7 +6,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 
 ## Au début de chaque session
 0. **Se mettre à jour** : `& E:\BOT\synchroniser.bat` (l'outil est partagé entre le PC perso et le PC du bureau via GitHub). Traiter toute ligne `[!!]` avant de travailler.
-1. Lire `REPRISE_SESSION.md`.
+1. Lire `REPRISE_SESSION.md` et `TODO.md`.
 2. Seulement si besoin : `STATUT.md`, `docs/DECISIONS.md`, `docs/ARBORESCENCE.md`, `docs/CAHIER_DES_CHARGES.md`.
 3. Si un document contredit l'état réel des fichiers, l'état réel prime : le signaler.
 
@@ -48,3 +48,6 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 - Lancement : `.\scraper.bat <adresse> [--format markdown|json|texte] [--sortie fichier]`.
 - Tests : `.\.venv\Scripts\python.exe -m pytest -q tests` (hors ligne).
 - L'interface (options, champs JSON, codes d'erreur) est utilisée par d'autres agents : ne pas la casser ; toute évolution doit rester compatible et être reportée dans `README.md`.
+
+## Liste des tâches
+- `TODO.md` est la liste des tâches du projet, toujours à jour : la lire en début de session avec `REPRISE_SESSION.md`, la mettre à jour à la fin de chaque étape, en fin de session et avant `/clear`. Une tâche n'est cochée que vérifiée. Règles et modèle : section « liste des tâches `TODO.md` » de `E:\BOT\A_LIRE_AVANT_TOUT_PROJET.md`.

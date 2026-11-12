@@ -22,6 +22,7 @@
 - Sites d'actu français à gros trafic (pubs, cookies, paywall).
 
 ## Reste à faire
+Liste à jour des tâches : voir `TODO.md`.
 - Faire essayer l'outil par un agent d'un autre projet.
 - Sites avec connexion.
 - Pages construites en JavaScript.
