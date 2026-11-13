@@ -14,7 +14,7 @@ Outil de scraping (récupération automatique d'informations sur des sites web) 
 - Secrets (identifiants, clés) uniquement dans `.env`, jamais affichés ni commités.
 - L'outil doit rester simple à appeler par un autre agent : une interface stable et documentée dans `README.md`. L'interface (options, champs JSON, codes d'erreur) est utilisée par d'autres agents : ne pas la casser ; toute évolution doit rester compatible et être reportée dans `README.md`.
 - Dépôt **public** : avant chaque commit, vérifier la liste (aucun secret, aucune donnée perso, rien d'inattendu). Tout ce qui est dans git est public.
-- Depuis le 10/11/2026 (demande de Quentin, deux PC) : chaque commit est poussé aussitôt (`git push`), sans attendre. Une modification commitée mais pas poussée n'est pas terminée (l'autre PC ne la verra pas). Après le push, entrée dans `ECHANGES_ENTRE_PC.md` (outil partagé avec le bureau).
+- Depuis le 10/11/2026 (demande de Quentin, deux PC) : chaque commit est poussé aussitôt (`git push`), sans attendre. Une modification commitée mais pas poussée n'est pas terminée (l'autre PC ne la verra pas). Après le push, entrée dans `MISE_A_JOUR.md` du dossier BOT (outil partagé avec le bureau).
 - Les commits utilisent l'e-mail anonyme GitHub (`97162976+Theorible1@users.noreply.github.com`, réglé dans la config git locale) : ne jamais remettre un vrai e-mail.
 - Lancement des tests et vérification : pour tout changement visible, regarder le résultat réel (fichier produit, sortie lue).
 - Chaque consigne de sous-agent commence par : « Lis d'abord `E:\BOT\Outils\scraping\SOUS_AGENT.md` en entier et respecte-le. » Tout interdit ajouté ici est reporté dans `SOUS_AGENT.md`.
