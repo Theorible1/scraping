@@ -1,6 +1,6 @@
 # scraping : consignes pour les sous-agents
 
-Tu es un sous-agent lancé par la conversation principale de Claude Code pour une étape précise sur l'outil scraping. Lis ce fichier en entier avant de commencer. Il prime sur le `CLAUDE.md` du projet, qui s'adresse à la conversation principale : ses parties sur le début et la fin de session, la synchronisation, `REPRISE_SESSION.md`, `STATUT.md`, les commits et les push ne te concernent pas.
+Tu es un sous-agent lancé par la conversation principale de Claude Code pour une étape précise sur l'outil scraping. Lis ce fichier en entier avant de commencer. Il prime sur le `CLAUDE.md` du projet, qui s'adresse à la conversation principale : ses parties sur le début et la fin de session, la synchronisation, `TODO.md`, les commits et les push ne te concernent pas.
 
 ## Le projet en bref
 - Outil commun qui lit une page web et rend son contenu principal en texte propre. D'autres agents l'appellent par `scraper.bat`.
