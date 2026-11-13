@@ -15,7 +15,7 @@ L'utilisateur (Quentin) parle français et n'est pas technicien : réponses en *
 2. Mettre à jour `STATUT.md`.
 3. Nouvelle décision : une ligne datée dans `docs/DECISIONS.md`.
 4. Nouveau dossier ou fichier important : mettre à jour `docs/ARBORESCENCE.md`.
-5. Étape validée : sauvegarde git (`git add -A` puis `git commit -m "<ce qui a été fait, en français>"`). Étape validée = un commit avec un message en français.
+5. Étape validée : sauvegarde git ciblée. `git status`, vérifier la liste (dépôt public : aucun secret, aucune donnée perso, rien d'inattendu), puis `git add <fichiers nommés un par un>` et `git commit -m "<ce qui a été fait, en français>"`. Jamais `git add -A`, `git add .` ni `git add -f`. Étape validée = un commit avec un message en français.
 6. **Publier en ligne** : `git push`, tout de suite. Une modification commitée mais pas poussée n'est pas terminée (l'autre PC ne la verra pas).
 
 ## À la fin de chaque session (« on s'arrête », « fin de session »)
