@@ -17,7 +17,8 @@
 - [ ] Sites avec connexion : attend de Quentin la liste des sites et le compte à utiliser
 - [ ] Test sur les sites d'actu et blogs que Quentin lit : attend de Quentin la liste de ces sites (pas encore testé : gros trafic, pubs, cookies, paywall)
 
-## Fait récemment
+## Fait récemment (10 au plus)
+- [x] 13/11/2026 : consigne des sous-agents valable sur les deux PC (dossier BOT au lieu de `E:\BOT`) (vérifié : ligne relue)
 - [x] 10/11/2026 : version 0.1.0 de `scraper.bat` (vérifié : 11 tests hors ligne passent)
 - [x] 10/11/2026 : wiki Fandom `Job_system` (vérifié : 8 046 mots, sections présentes, méthode api_wiki)
 - [x] 10/11/2026 : `fr.wikipedia.org/wiki/Web_scraping` (vérifié : bandeau d'avertissement retiré)

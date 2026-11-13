@@ -17,7 +17,7 @@ Outil de scraping (récupération automatique d'informations sur des sites web) 
 - Depuis le 10/11/2026 (demande de Quentin, deux PC) : chaque commit est poussé aussitôt (`git push`), sans attendre. Une modification commitée mais pas poussée n'est pas terminée (l'autre PC ne la verra pas). Après le push, entrée dans `MISE_A_JOUR.md` du dossier BOT (outil partagé avec le bureau).
 - Les commits utilisent l'e-mail anonyme GitHub (`97162976+Theorible1@users.noreply.github.com`, réglé dans la config git locale) : ne jamais remettre un vrai e-mail.
 - Lancement des tests et vérification : pour tout changement visible, regarder le résultat réel (fichier produit, sortie lue).
-- Chaque consigne de sous-agent commence par : « Lis d'abord `E:\BOT\Outils\scraping\SOUS_AGENT.md` en entier et respecte-le. » Tout interdit ajouté ici est reporté dans `SOUS_AGENT.md`.
+- Chaque consigne de sous-agent commence par : « Lis d'abord `<dossier BOT>\Outils\scraping\SOUS_AGENT.md` en entier et respecte-le. » (dossier BOT : `E:\BOT` au PC perso, `C:\Quentin\SCRIPT` au bureau) Tout interdit ajouté ici est reporté dans `SOUS_AGENT.md`.
 
 ## Technique
 - Python 3.14 installé, Git 2.56. Technologie : Python (`.venv` du projet), httpx, trafilatura (articles), markdownify (wikis). Toujours utiliser `.venv\Scripts\python.exe`.
